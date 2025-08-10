@@ -1,0 +1,5 @@
+config SHIELD_DACTYL_LEFT
+    def_bool $(shields_list_contains, Dactyl_manuform_left)
+
+config SHIELD_DACTYL_RIGHT
+    def_bool $(shields_list_contains, Dactyl_manuform_right)
