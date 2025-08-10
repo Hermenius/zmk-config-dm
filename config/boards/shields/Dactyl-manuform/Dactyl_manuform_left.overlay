@@ -1,0 +1,14 @@
+//Dactyl_manuform_left.overlay
+
+#include "Dactyl_manuform.dtsi" // Notice that the main dtsi files are included in the overlay.
+
+&kscan0 {
+    col-gpios
+        = <&pro-micro 13 GPIO_ACTIVE_HIGH> // col5 in the schematic
+        , <&pro-micro 12 GPIO_ACTIVE_HIGH> // col4 in the schematic
+        , <&pro-micro 11 GPIO_ACTIVE_HIGH> // col3 in the schematic
+        , <&pro-micro 10 GPIO_ACTIVE_HIGH> // col2 in the schematic
+        , <&pro-micro 9 GPIO_ACTIVE_HIGH> // col1 in the schematic
+        , <&pro-micro 8 GPIO_ACTIVE_HIGH> // col0 in the schematic
+        ;
+};
